@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Web</title>
+    <%= favicon %>
+    <link href='https://fonts.googleapis.com/css?family=Luckiest+Guy' rel='stylesheet' type='text/css'>
+    <style>
+      body {
+        text-align: center;
+        font-size: 21px;
+        font-family: "Luckiest Guy";
+        background: url("http://orig15.deviantart.net/514e/f/2014/298/5/1/pokemon_x_and_y_battle_background_11_by_phoenixoflight92-d843okx.png");
+        background-size: cover;
+      }
+
+      h1 {
+        font-size: 48px;
+        color: yellow;
+        text-shadow: 0 2px 0 blue;
+      }
+      .Button {
+        display: block;
+        margin: 2em auto;
+        color: white;
+        font-weight: bold;
+        font-family: inherit;
+        padding: 20px 40px;
+        font-size: 32px;
+        background-color: red;
+        border: .25em solid #fff;
+        border-radius: .5em;
+        max-width: 25%;
+        text-decoration: none;
+      }
+      img {
+        width: 600px;
+        height: 600px;
+        margin: -100px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <%= yield %>
+  </body>
+</html>
